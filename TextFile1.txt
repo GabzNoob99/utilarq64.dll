@@ -2,9 +2,7 @@ UtilsArq64.dll
 ├── Arq
 ├── Zip
 ├── Show
-├── Open
-├── Crp
-└── Vault
+└── Open
 
 Arq.Exist("teste.txt")
 Arq.read("teste.txt")
@@ -17,14 +15,8 @@ Zip.Zip("Projeto", "Projeto.zip")
 Zip.Extract("Projeto.zip", "Destino")
 
 Show.FileCount("C:\\")
-Show.size("C:\\")
+Show.Size("C:\\")
 
 Open.Open("notepad.exe")
 Open.Openl("C:\\")
 Open.OpenURL("https://google.com")
-
-Mem.Set("nome", "Gab")
-Mem.Get("nome")
-
-Vault.Save("token", "abc123")
-Vault.read("token")

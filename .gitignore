@@ -6,6 +6,7 @@ obj/
 *.user
 *.suo
 *.sln.docstates
+test.py
 packages/
 *.log
 .DS_Store
