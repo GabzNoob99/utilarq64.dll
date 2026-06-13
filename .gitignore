@@ -1,0 +1,11 @@
+# Visual Studio
+.vs/
+.vscode/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+packages/
+*.log
+.DS_Store
