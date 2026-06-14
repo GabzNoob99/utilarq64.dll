@@ -1,0 +1,22 @@
+UtilsArq64.dll
+├── Arq
+├── Zip
+├── Show
+└── Open
+
+//Arq.Exist("teste.txt")
+//Arq.read("teste.txt")
+//Arq.write("teste.txt", "Olá")
+//Arq.remove("teste.txt")
+//Arq.Copy("a.txt", "b.txt")
+//Arq.Move("a.txt", "b.txt")
+
+//Zip.Zip("Projeto", "Projeto.zip")
+//Zip.Extract("Projeto.zip", "Destino")
+
+//Show.FileCount("C:\\")
+//Show.Size("C:\\")
+
+//Open.Open("notepad.exe")
+//Open.Openl("C:\\")
+//Open.OpenURL("https://google.com")
