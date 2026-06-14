@@ -123,5 +123,9 @@ namespace utilarq64
                 throw new InvalidOperationException($"Erro ao descompactar: {caminhoZip}", ex);
             }
         }
+        public static void Arq()
+        {
+            
+        }
     }
 }
