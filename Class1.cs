@@ -236,5 +236,28 @@ namespace utilarq64
                 throw new InvalidOperationException($"Error writing to: {path}", ex);
             }
         }
+        public static void Create(string type, string name, string path)
+        {
+            try{
+                string fullPath = Path.Combine(path, name);
+                type = type.ToLowerInvariant();
+                if (type == "dir")
+                {
+                    Directory.CreateDirectory(fullPath);
+                }
+                else if (type == "file")
+                {
+                    File.Create(fullPath).Close();
+                }
+                else
+                {
+                    throw new ArgumentException($"Invalid FileType: {type}");
+                }
+            }
+            catch(Exception ex)
+            {
+                throw new InvalidOperationException($"Error creating a {type} to {path}", ex);
+            }
+        }
     }
 }

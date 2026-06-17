@@ -10,6 +10,7 @@ UtilsArq64.dll
 //Arq.remove("teste.txt")
 //Arq.Copy("a.txt", "b.txt")
 //Arq.Move("a.txt", "b.txt")
+Arq.create("type", "name", "path")
 
 //Zip.Zip("Projeto", "Projeto.zip")
 //Zip.Extract("Projeto.zip", "Destino")
